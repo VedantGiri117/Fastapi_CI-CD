@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: krishnegowda2005/student-fastapi:latest
+    image: VedantGiri117/student-fastapi:latest
     container_name: student-fastapi
     ports:
       - "8000:8000"

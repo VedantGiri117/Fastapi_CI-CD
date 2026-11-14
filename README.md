@@ -138,7 +138,7 @@ Follow the result in the repository’s **Actions** tab. A successful run means 
 
 ## Notes
 
-- The Compose file currently references `krishnegowda2005/student-fastapi:latest`. If your `DOCKER_USERNAME` secret has a different value, change the Compose image to `<your-Docker-Hub-username>/student-fastapi:latest` before using `docker compose up`.
+- The Compose file currently references `VedantGiri117/student-fastapi:latest`. If your `DOCKER_USERNAME` secret has a different value, change the Compose image to `<your-Docker-Hub-username>/student-fastapi:latest` before using `docker compose up`.
 - Port `8000` must be free on your computer. If it is already in use, stop the other service or map another host port, for example `-p 8001:8000`, then visit <http://localhost:8001>.
 
 ---
